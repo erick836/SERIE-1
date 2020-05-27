@@ -1,0 +1,94 @@
+*
+{
+    margin: 2px;
+    padding: 0px;
+}
+body
+{
+    background-image: url('imagenes/l.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Bahnschrift, Comic Sans MS, "Arial";
+}
+#ENCABEZADO
+{
+    text-align:center;
+    color:white;
+	font-size:40px;
+    width: 1100px;
+    margin: 0px auto;
+}
+h1
+{
+	display:inline-block;
+	position:relative;
+}
+h1::after,h1::before
+{
+	content:'';
+	position:absolute;
+	width:50px;
+	height:5px;
+	background-color:white;
+	top:0.6em;
+}
+h1::before
+{
+	left:-70px;
+}
+h1::after
+{
+	right:-70px;
+}
+header
+{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color:white;    
+}
+#TITULO
+{
+    border-bottom: 1px solid #eee;
+	width: calc(40% - 40px);
+}
+#COLA
+{
+    float: left;
+    width: calc(45% - 45px);
+    min-height: 500px;
+    padding: 40px;
+    color:white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    padding-bottom: 10px;    
+}
+.t
+{
+	border-left: 3px solid #eee;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: 3px;
+	top: 150px;
+}
+
+#COLB
+{
+    float: right;
+    width: calc(45% - 45px);
+    min-height: 500px;
+    padding: 40px;
+    color:white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+#PIE
+{
+    text-align:center;
+    width: 600px;
+    margin: 6px auto;
+    color: white;
+	font-size:25px;
+}
